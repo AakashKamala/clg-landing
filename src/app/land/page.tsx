@@ -4,6 +4,21 @@ import { Code, Palette, Rocket, ArrowRight, CheckCircle2 } from 'lucide-react';
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
+      <div className="bg-purple-600 text-white py-3 px-4 flex items-center justify-between shadow-md">
+        <div className="flex items-center space-x-3">
+          <Rocket className="h-6 w-6 text-white" />
+          <h2 className="text-lg font-semibold">
+            Working tirelessly? Rejuvenate yourself! Play a Game
+          </h2>
+        </div>
+        <a
+          href="https://shoot-game1.vercel.app/"
+          className="inline-flex items-center px-4 py-2 bg-white text-purple-600 font-medium rounded-md hover:bg-gray-100 transition-colors duration-300"
+        >
+          Play Now
+          <ArrowRight className="ml-2 h-5 w-5" />
+        </a>
+      </div>
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32">
